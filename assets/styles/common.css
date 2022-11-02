@@ -101,6 +101,9 @@ html, body {
   color: rgb(123, 29, 29);
 }
 
+.dropdown {
+  z-index: 2;
+}
 .dropdown .dropbtn {
   background-color: rgb(16, 16, 16);
   height: 100px;
@@ -163,14 +166,18 @@ html, body {
   justify-content: space-evenly;
   align-items: center;
   color: rgb(76, 80, 84);
-  background-color: rgba(238, 229, 229, 0.7294117647);
+  background-color: black;
   margin: auto;
 }
 .footer p {
   margin-right: 50px;
   font-size: 15.5;
+  text-decoration: underline;
 }
 .footer h5 {
   margin-left: 50px;
+  font-size: 15.5px;
+}
+.footer span {
   font-size: 15.5px;
 }/*# sourceMappingURL=common.css.map */

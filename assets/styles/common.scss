@@ -27,7 +27,6 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     position: static;
     color: whitesmoke;
-
     .left {
         display: flex;
         justify-content: center;
@@ -120,6 +119,7 @@ html, body {
 
 
 .dropdown{
+    z-index: 2;
     .dropbtn{
         background-color: rgb(16, 16, 16);
         height: 100px;
@@ -191,17 +191,21 @@ html, body {
     justify-content: space-evenly;
     align-items: center;
     color: rgb(76, 80, 84);
-    background-color: #eee5e5ba;
+    background-color: black;
     margin: auto;
 
 
     p{
         margin-right: 50px;
         font-size: 15.5;
+        text-decoration: underline;
     }
 
     h5{
         margin-left: 50px;
+        font-size: 15.5px;
+    }
+    span {
         font-size: 15.5px;
     }
   }
