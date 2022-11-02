@@ -1,0 +1,135 @@
+.hero-container {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgba(39, 38, 38, 0.6), rgba(0, 0, 0, 0.6)), url("https://bloximages.newyork1.vip.townnews.com/channelv6.com/content/tncms/assets/v3/editorial/a/65/a6543d14-f76c-11e9-8e39-57d85f03bb0c/5db36630006e9.image.png?resize=810%2C450");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-container h1 {
+  margin-top: 10%;
+  font-size: 75px;
+}
+
+.about {
+  display: flex;
+  background-color: rgba(238, 229, 229, 0.7294117647);
+  color: slategrey;
+  flex-direction: column;
+  height: 465px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.about .content {
+  margin-left: 8%;
+}
+.about .content p {
+  width: 80%;
+  line-height: 1.4;
+}
+.about .content h1 {
+  margin-bottom: 0;
+  text-align: center;
+  margin-right: 180px;
+  color: black;
+  text-decoration: underline;
+}
+.about .content img {
+  margin-left: 575px;
+  border-radius: 10px;
+}
+
+.page-content .values {
+  background: linear-gradient(rgba(39, 38, 38, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.wixstatic.com/media/d8b12c_ab0dd8d6f6ca4b67b988afc0f69ef854~mv2.png/v1/fill/w_1400,h_900,al_c,q_90,enc_auto/d8b12c_ab0dd8d6f6ca4b67b988afc0f69ef854~mv2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 368px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+}
+.page-content .values .left {
+  margin-left: 19%;
+  width: 50%;
+  height: 100%;
+}
+.page-content .values .left h3 {
+  font-size: 32px;
+}
+.page-content .values .right {
+  width: 50%;
+  height: 100%;
+}
+.page-content .values .right h3 {
+  font-size: 32px;
+}
+.page-content .values .right p {
+  font-size: 18px;
+}
+.page-content .goals {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: slategrey;
+  background-color: rgba(238, 229, 229, 0.7294117647);
+}
+.page-content .goals .container {
+  width: 60%;
+  height: 465px;
+  margin-left: 8%;
+}
+.page-content .goals .container h3 {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.page-content .goals .container h4 {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.page-content .goals .container p {
+  margin-left: 2%;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.page-content .goals .container img {
+  margin-left: 215px;
+  border-radius: 10px;
+}
+.page-content .contact {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-image: linear-gradient(rgba(102, 99, 99, 0.6), rgba(0, 0, 0, 0.6)), url(//assets/images/sky-blue-1359435411mV0.jpg);
+}
+.page-content .contact h2 {
+  margin-right: 150px;
+  padding-right: 150px;
+  font-size: 32px;
+}
+.page-content .contact p {
+  margin-left: 450px;
+}/*# sourceMappingURL=home.css.map */

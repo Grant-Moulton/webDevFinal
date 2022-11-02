@@ -1,0 +1,86 @@
+.page-content{
+    border: 5px solid blue;
+    color: black;
+
+    .left{
+        border: black 3px solid;
+        flex: 35;
+    }
+    
+  
+
+
+    .right{
+        border:  solid 15px green;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        .meal-card-right{
+            border: 10px solid cyan;
+            flex: 50%;
+
+            h4, p, h6, a{
+                display:flex;
+                align-items: center;
+                border: 10px solid red;
+            }
+        }
+
+        .limited-time{
+            border: purple solid 4px;
+        }
+
+        .market-fresh{
+            border: pink 6px solid;
+
+        }
+
+        .roasted-beef{
+            border: green solid 4px;
+        }
+
+        .sides-snacks{
+            border: 4px solid cyan;
+        }
+
+        .beverages{
+            border: solid 4px gold;
+        }
+
+
+    }
+
+    .questions{
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: Center;
+        background-color: black;
+        color: white;
+        text-decoration: underline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 22px;
+    }
+
+    .get-to-know{
+        margin-bottom: 66px;
+    }
+
+    .stay-in-touch{
+        margin-bottom: 65px;
+    }
+
+    .lets-connect{
+        margin-bottom: 110px;
+        padding-bottom: 106px;
+
+    }
+    
+    a{
+        color: black;
+        text-decoration: underline;
+    }
+}

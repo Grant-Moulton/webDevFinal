@@ -1,0 +1,65 @@
+.page-content {
+  border: 5px solid blue;
+  color: black;
+}
+.page-content .left {
+  border: black 3px solid;
+  flex: 35;
+}
+.page-content .right {
+  border: solid 15px green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.page-content .right .meal-card-right {
+  border: 10px solid cyan;
+  flex: 50%;
+}
+.page-content .right .meal-card-right h4, .page-content .right .meal-card-right p, .page-content .right .meal-card-right h6, .page-content .right .meal-card-right a {
+  display: flex;
+  align-items: center;
+  border: 10px solid red;
+}
+.page-content .right .limited-time {
+  border: purple solid 4px;
+}
+.page-content .right .market-fresh {
+  border: pink 6px solid;
+}
+.page-content .right .roasted-beef {
+  border: green solid 4px;
+}
+.page-content .right .sides-snacks {
+  border: 4px solid cyan;
+}
+.page-content .right .beverages {
+  border: solid 4px gold;
+}
+.page-content .questions {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: Center;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+}
+.page-content .get-to-know {
+  margin-bottom: 66px;
+}
+.page-content .stay-in-touch {
+  margin-bottom: 65px;
+}
+.page-content .lets-connect {
+  margin-bottom: 110px;
+  padding-bottom: 106px;
+}
+.page-content a {
+  color: black;
+  text-decoration: underline;
+}/*# sourceMappingURL=food.css.map */
