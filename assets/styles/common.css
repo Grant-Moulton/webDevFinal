@@ -151,8 +151,7 @@ html, body {
   display: block;
   color: white;
 }
-
-.dropdown:hover .dropdown-content {
+.dropdown .dropdown:hover .dropdown-content {
   display: block;
   color: white;
 }

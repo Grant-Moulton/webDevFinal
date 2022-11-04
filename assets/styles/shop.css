@@ -4,4 +4,31 @@
 
 .page-content {
   border: 5px solid red;
+}
+.page-content .shop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  border: 5px solid violet;
+}
+.page-content .shop img {
+  width: 40%;
+  height: auto;
+  border: 6px solid purple;
+}
+.page-content .rows {
+  border: 3px solid blue;
+}
+.page-content .see-all {
+  border: 3px solid red;
+  width: 50%;
+  height: 50px;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
 }/*# sourceMappingURL=shop.css.map */
