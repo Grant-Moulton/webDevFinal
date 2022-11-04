@@ -60,10 +60,16 @@ html body {
 .page-content .see-all {
   width: 50%;
   height: 50px;
+  margin-top: 55px;
   margin-left: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   background-color: black;
+  border-radius: 18px;
+  text-decoration: underline;
+}
+.page-content .white-space {
+  height: 50px;
 }/*# sourceMappingURL=shop.css.map */
