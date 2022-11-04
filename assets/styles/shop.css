@@ -13,18 +13,22 @@
 .page-content .shop {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  height: 600px;
-  border: 5px solid violet;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .page-content .shop img {
   width: 40%;
-  height: auto;
-  border: 6px solid purple;
+  height: 400px;
 }
-.page-content .rows {
-  border: 3px solid blue;
+.page-content .text {
+  display: flex;
+  justify-content: space-around;
+}
+.page-content .text h3 {
+  margin-top: 0px;
 }
 .page-content .see-all {
   border: 3px solid red;
