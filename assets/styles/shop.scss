@@ -1,12 +1,21 @@
-html body {
-    background-color: whitesmoke;
+html body{
+    background-color: rgb(224, 224, 224);
+    height: fit-content;
 }
 
-.nav-container {
-    border: 5px solid blue;
-}
+
 
 .page-content {
+
+    h2 {
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+        font-size: 27px;
+    }
+    
+    h3 {
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    }
+
     .title {
         display: flex;
         justify-content: center;
@@ -35,7 +44,6 @@ html body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border: 5px solid darkblue;
         width: 100%;
         height: fit-content;
 
@@ -45,14 +53,14 @@ html body {
             align-items: center;
 
             img {
-                width: 60%;
+                width: 97%;
                 height: auto;
-                border: red solid 3px;
             }
 
             h3 {
                 margin-top: 0px;
                 text-align: center;
+                font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;;
             }
         }
     }
@@ -60,7 +68,7 @@ html body {
 
 
     .see-all {
-        border: 3px solid red;
+
         width: 50%;
         height: 50px;
         margin-left: 250px;
@@ -70,4 +78,6 @@ html body {
         color: white;
         background-color: black;
     }
+
+
 }

@@ -101,9 +101,6 @@ html, body {
   color: rgb(123, 29, 29);
 }
 
-.dropdown {
-  z-index: 2;
-}
 .dropdown .dropbtn {
   background-color: rgb(16, 16, 16);
   height: 100px;
